@@ -51,4 +51,4 @@ The system uses MySQL.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/personal-task-manager.git
+git clone https://github.com/EmmmFabe/personal-task-manager.git
