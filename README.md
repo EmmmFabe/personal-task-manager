@@ -1,12 +1,16 @@
 # Personal Task Manager
 
 A simple Personal Task Manager developed using Laravel.
+WST21-PM-2026-SF
+JOHN MICHEAL F. BAUTISTA
+BSIT-2 - 7
 
 ## Project Description
 
 The Personal Task Manager allows users to create, view, edit, update, and delete tasks.
 
 Users can also set the status of a task as Pending or Completed and assign a due date.
+
 
 ## Features
 
