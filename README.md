@@ -3,9 +3,9 @@
 A simple Personal Task Manager developed using Laravel.
 
 # Submitted by:
-WST21-PM-2026-SF
-JOHN MICHEAL F. BAUTISTA
-BSIT-2 - 7
+- WST21-PM-2026-SF
+- JOHN MICHEAL F. BAUTISTA
+- BSIT-2 - 7
 
 ## Project Description
 
