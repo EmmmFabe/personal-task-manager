@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f6f8;
+    background: #f1f1f1;
     color: #333;
 }
 
@@ -19,7 +19,7 @@ body {
 /* Header */
 
 .header {
-    background: #2563eb;
+    background: #4b4b4b;
     color: white;
     padding: 25px;
     border-radius: 12px;
@@ -38,26 +38,28 @@ body {
 
 .add-button {
     display: inline-block;
-    background: #16a34a;
+    background: #555555;
     color: white;
     text-decoration: none;
     padding: 12px 18px;
     border-radius: 8px;
     margin-bottom: 20px;
+    transition: 0.2s;
 }
 
 .add-button:hover {
-    background: #15803d;
+    background: #333333;
 }
 
 /* Success Message */
 
 .success {
-    background: #dcfce7;
-    color: #166534;
+    background: #e5e5e5;
+    color: #333333;
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 20px;
+    border-left: 4px solid #666666;
 }
 
 /* Task Card */
@@ -72,7 +74,7 @@ body {
 
 .task-card h2 {
     margin-bottom: 12px;
-    color: #1e293b;
+    color: #2f2f2f;
 }
 
 .task-info {
@@ -87,25 +89,28 @@ body {
     border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
-    background: #fef3c7;
-    color: #92400e;
+    background: #e5e5e5;
+    color: #444444;
 }
 
-/* Buttons */
+/* Edit Button */
 
 .edit-button {
     display: inline-block;
-    background: #2563eb;
+    background: #666666;
     color: white;
     text-decoration: none;
     padding: 8px 14px;
     border-radius: 6px;
     margin-top: 10px;
+    transition: 0.2s;
 }
 
 .edit-button:hover {
-    background: #1d4ed8;
+    background: #444444;
 }
+
+/* Delete Button */
 
 .delete-form {
     display: inline-block;
@@ -145,6 +150,7 @@ body {
     display: block;
     margin-bottom: 7px;
     font-weight: bold;
+    color: #333333;
 }
 
 .form-group input,
@@ -152,9 +158,17 @@ body {
 .form-group select {
     width: 100%;
     padding: 11px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #bdbdbd;
     border-radius: 7px;
     font-size: 15px;
+    background: #fafafa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #666666;
 }
 
 .form-group textarea {
@@ -162,25 +176,34 @@ body {
     resize: vertical;
 }
 
+/* Submit Button */
+
 .submit-button {
-    background: #2563eb;
+    background: #555555;
     color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 7px;
     cursor: pointer;
     font-size: 15px;
+    transition: 0.2s;
 }
 
 .submit-button:hover {
-    background: #1d4ed8;
+    background: #333333;
 }
+
+/* Back Link */
 
 .back-link {
     display: inline-block;
     margin-top: 15px;
-    color: #2563eb;
+    color: #555555;
     text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
 }
 
 /* Top Bar */
@@ -193,7 +216,7 @@ body {
 }
 
 .top-bar h2 {
-    color: #1e293b;
+    color: #2f2f2f;
 }
 
 /* Task Count */
@@ -203,8 +226,9 @@ body {
     padding: 12px 16px;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #64748b;
+    color: #666666;
     font-weight: bold;
+    border-left: 4px solid #666666;
 }
 
 /* Task Header */
@@ -221,23 +245,25 @@ body {
     margin: 0;
 }
 
-/* Status */
+/* Pending Status */
 
 .status.pending {
-    background: #fef3c7;
-    color: #92400e;
+    background: #e8e8e8;
+    color: #555555;
 }
 
+/* Completed Status */
+
 .status.completed {
-    background: #dcfce7;
-    color: #166534;
+    background: #d9d9d9;
+    color: #333333;
 }
 
 /* Task Description */
 
 .task-info p {
     margin-top: 5px;
-    color: #64748b;
+    color: #707070;
 }
 
 /* Task Actions */
@@ -260,11 +286,11 @@ body {
 
 .empty-card h2 {
     margin-bottom: 10px;
-    color: #1e293b;
+    color: #333333;
 }
 
 .empty-card p {
-    color: #64748b;
+    color: #707070;
     margin-bottom: 20px;
 }
 

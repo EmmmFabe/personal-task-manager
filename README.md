@@ -25,6 +25,33 @@ Users can also set the status of a task as Pending or Completed and assign a due
 - Due Date
 - Responsive User Interface
 
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Create Task
+
+![Create Task](screenshots/Create.png)
+
+### Edit Task
+
+![Edit Task](screenshots/Edit.png)
+
+### Final Task Manager
+
+![Final Task Manager](screenshots/Final.png)
+
+### Database
+
+![Database](screenshots/Database.png)
+
+---
+
+Final Task Manager
+
 ## Technologies Used
 
 - Laravel
