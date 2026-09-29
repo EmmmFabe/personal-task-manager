@@ -30,11 +30,11 @@ Users can also set the status of a task as Pending or Completed and assign a due
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### Create Task
 
-![Create Task](screenshots/Create.png)
+![Add Task](screenshots/AddTask.png)
 
 ### Edit Task
 
